@@ -25,8 +25,7 @@ double ref_cte = 0;
 double ref_epsi = 0;
 double ref_v = 70;
 
-size_t 
-_x = 0;
+size_t start_x = 0;
 size_t start_y = start_x + N;
 size_t start_psi = start_y + N;
 size_t start_v = start_psi + N;
