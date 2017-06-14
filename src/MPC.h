@@ -12,6 +12,9 @@ class MPC {
 
   virtual ~MPC();
 
+  vector<double> solx_;
+  vector<double> soly_;
+  double curSteering_;  
   // Solve the model given an initial state and polynomial coefficients.
   // Return the first actuatotions.
   vector<double> Solve(Eigen::VectorXd state, Eigen::VectorXd coeffs);
